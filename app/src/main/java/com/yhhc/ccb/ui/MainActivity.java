@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.fl1 , new UpRollAnimFragment()).commit();
         getSupportFragmentManager().beginTransaction().replace(R.id.fl2 , new UpRollFragment()).commit();
         getSupportFragmentManager().beginTransaction().replace(R.id.fl3 , new UpRollRecyclerFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fl4 , new UpRollViewPagerFragment()).commit();
     }
 
 }

@@ -10,17 +10,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/vf0"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="12dp"
         android:layout_marginBottom="18dp"
         ></com.yhhc.ccb.view.UpRollView>
 
     <include layout="@layout/view_line"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="双行文字"
+        android:textSize="10dp"
+        android:textColor="#999"
+        android:padding="5dp"
+        />
 
     <com.yhhc.ccb.view.UpRollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/vf1"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="18dp"
         ></com.yhhc.ccb.view.UpRollView>
 
 </LinearLayout>

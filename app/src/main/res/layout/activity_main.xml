@@ -50,6 +50,22 @@
         android:id="@+id/fl3"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"></FrameLayout>
+    <include layout="@layout/view_line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="竖直ViewPager自动滚动"
+        android:textSize="10dp"
+        android:textColor="#999"
+        android:padding="5dp"
+        />
+    <FrameLayout
+        android:id="@+id/fl4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_marginTop="20dp"></FrameLayout>
 
 </LinearLayout>
