@@ -59,8 +59,12 @@ private TextView tv;
     private void init() {
         mList_Tv_Ad.add("七夕浪漫势头难挡，情人节当天再掀购花狂潮。");
         mList_Tv_Ad.add("学习同行业的经验叫创新.学习其他行业的经验叫革命");
-        mList_Tv_Ad.add("踏破铁鞋无觅处，得来全不费工夫。");
-        mList_Tv_Ad.add("春宵一刻值千金，花有清香月有阴");
+        mList_Tv_Ad.add("无边落木萧萧下，不尽长江滚滚来。");
+        mList_Tv_Ad.add("万里悲秋常作客，百年多病独登台。");
+        mList_Tv_Ad.add("会当凌绝顶，一览众山小。");
+        mList_Tv_Ad.add("此曲只应天上有，人间能得几回闻。");
+        mList_Tv_Ad.add("国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。");
+        mList_Tv_Ad.add("安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山！");
         mList_Tv_Ad.add("曾经沧海难为水，除却巫山不是云");
         TextViewRollAd();
     }

@@ -31,6 +31,7 @@ public class UpRollRecyclerFragment extends Fragment {
 
 
     private LinearLayoutManager linearLayoutManager;
+    private Thread thread;
 
     public UpRollRecyclerFragment() {
         // Required empty public constructor
@@ -75,15 +76,18 @@ public class UpRollRecyclerFragment extends Fragment {
     private int cp;
     DecelerateInterpolator decelerateInterpolator = new DecelerateInterpolator();
     private void startRoll(){
-        new Thread(new Runnable() {
+        thread = new Thread(new Runnable() {
             @Override
             public void run() {
                 SystemClock.sleep(3000);
-                rv.smoothScrollBy(0 , dp2px(60),decelerateInterpolator);
-                //                rv.smoothScrollToPosition(++cp);
-                this.run();
+                if (!thread.isInterrupted()) {
+                    rv.smoothScrollBy(0, dp2px(60), decelerateInterpolator);
+                    //                rv.smoothScrollToPosition(++cp);
+                    this.run();
+                }
             }
-        }).start();
+        });
+        thread.start();
     }
 
 
@@ -135,6 +139,7 @@ public class UpRollRecyclerFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        if (thread != null)thread.interrupt();
 //        handler.removeCallbacksAndMessages(null);
 //        handler = null;
     }
