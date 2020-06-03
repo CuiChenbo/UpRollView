@@ -5,6 +5,8 @@
 - 自定义ViewFlipper 实现滚动效果；
 - RecyclerView+子线程延时 实现滚动效果；
 - 竖直ViewPager+Handler延时 实现滚动效果；；<br/>
+
+![UpRollView博客](https://blog.csdn.net/qq_35605213/article/details/106519765)
 ![运行时动态图](https://github.com/CuiChenbo/UpRollView/blob/master/images/T823.gif)
 ![效果图](https://github.com/CuiChenbo/UpRollView/blob/master/images/TI00603103833.jpg)
 
