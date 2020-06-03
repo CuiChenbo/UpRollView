@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    tools:context="com.yhhc.ccb.ui.UpRollFragment">
+
+
+    <com.yhhc.ccb.view.UpRollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vf0"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        ></com.yhhc.ccb.view.UpRollView>
+
+    <include layout="@layout/view_line"/>
+
+    <com.yhhc.ccb.view.UpRollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vf1"
+        android:layout_marginTop="28dp"
+        ></com.yhhc.ccb.view.UpRollView>
+
+</LinearLayout>
