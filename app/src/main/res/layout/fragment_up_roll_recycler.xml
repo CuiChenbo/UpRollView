@@ -9,4 +9,8 @@
        android:layout_width="match_parent"
        android:layout_height="80dp"></android.support.v7.widget.RecyclerView>
 
+   <View
+       android:clickable="true"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
 </FrameLayout>
